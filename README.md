@@ -41,3 +41,7 @@
 </p>
 
 [^1]: Image attribution: [KITTI dataset](https://www.cvlibs.net/datasets/kitti/)
+
+---
+
+<sup><sub>Used template: https://github.com/plpxsk/primer-template/tree/main</sub></sup>
