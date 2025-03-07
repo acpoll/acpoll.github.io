@@ -2,6 +2,18 @@
 
 **MSc Robotics, Systems and Control student at ETH Zurich**
 
+## Current projects
+### *Autonomous River Cleanup (ARC)*: Robotics Engineer Volunteer
+- Student project at the Robotic Systems Lab ETH ([website](https://riverclean.ethz.ch))
+- Working on the Mobile Autonomous Recycling Container (MARC) with ROS Noetic
+<p align="center">
+    <img src="https://rsl.ethz.ch/research/researchtopics/arc/_jcr_content/par/fullwidthimage/image.imageformat.930.1783859568.png" alt="image" width="250">
+    <img src="https://riverclean.ethz.ch/wp-content/uploads/2023/05/container_rendering.jpg" alt="image" width="250">
+</p>
+
+
+---
+---
 ## Previous projects
 ### *Stereofog*: Image-to-image machine translation enables computational defogging in real-world images
 - Research internship in at the University of Utah, USA
