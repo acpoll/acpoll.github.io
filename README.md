@@ -1,13 +1,22 @@
 <center><h1>Anton Pollak</h1></center>
 
-**MSc Robotics, Systems and Control student at ETH Zurich**
+<div align="center">
+<p><strong>MSc Robotics, Systems and Control student at ETH Zurich</strong></p>
+
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/acpoll)
+</div>
 
 ## Current projects
+### *Perception and Learning for Robotics* class: Project on RL
+- Class of Spring 2025 at the Robotic Systems Lab at ETH
+
+---
+
 ### *Autonomous River Cleanup (ARC)*: Robotics Engineer Volunteer
 - Student project at the Robotic Systems Lab ETH ([website](https://riverclean.ethz.ch))
 - Working on the Mobile Autonomous Recycling Container (MARC) with ROS Noetic
 <p align="center">
-    <img src="https://rsl.ethz.ch/research/researchtopics/arc/_jcr_content/par/fullwidthimage/image.imageformat.930.1783859568.png" alt="image" width="250">
+    <img src="https://rsl.ethz.ch/research/researchtopics/arc/_jcr_content/par/fullwidthimage/image.imageformat.930.1783859568.png" alt="image" width="200">
     <img src="https://riverclean.ethz.ch/wp-content/uploads/2023/05/container_rendering.jpg" alt="image" width="250">
 </p>
 
@@ -31,6 +40,23 @@
 - Paper published in IEEE Access: [DOI](https://doi.org/10.1109/access.2024.3352436)
 <p align="center">
     <img src="images/Methodology_IEEE_paper.jpg" alt="image" width="500">
+</p>
+
+---
+
+### *Robotics Systems* class: Chess-playing robotic arm
+- During exchange semester at the University of Melbourne, Australia
+- Construction of a robotic arm to manipulate pieces on a chess board & implementation from scratch in Matlab
+- Link to final demo video: https://youtu.be/MSCJdkJYSEA
+
+<!-- <p align="center">
+    <img src="images/chess_robot.png" alt="image" width="500"> 
+</p> -->
+
+<p align="center">
+      <a href="https://www.youtube.com/watch?v=MSCJdkJYSEA">
+         <img src="https://img.youtube.com/vi/MSCJdkJYSEA/0.jpg" width="500">
+      </a>
 </p>
 
 ---
