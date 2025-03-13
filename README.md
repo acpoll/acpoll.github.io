@@ -3,7 +3,7 @@
 <div align="center">
 <p><strong>MSc Robotics, Systems and Control student at ETH Zurich</strong></p>
 
-[https://github.com/acpoll](https://github.com/acpoll)
+<a href="https://github.com/acpoll">https://github.com/acpoll</a>
 
 </div>
 
