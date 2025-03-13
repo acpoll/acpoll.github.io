@@ -3,7 +3,8 @@
 <div align="center">
 <p><strong>MSc Robotics, Systems and Control student at ETH Zurich</strong></p>
 
-[![GitHub](https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/acpoll)
+[https://github.com/acpoll](https://github.com/acpoll)
+
 </div>
 
 ## Current projects
