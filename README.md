@@ -7,14 +7,14 @@
 </div>
 
 ## Current projects
-### *Perception and Learning for Robotics* class: Project on RL
+### *Perception and Learning for Robotics* class: Project on Reinforcement Learning for ANYmal
 - Class of Spring 2025 at the Robotic Systems Lab at ETH
 
 ---
 
 ### *Autonomous River Cleanup (ARC)*: Robotics Engineer Volunteer
 - Student project at the Robotic Systems Lab ETH ([website](https://riverclean.ethz.ch))
-- Working on the Mobile Autonomous Recycling Container (MARC) with ROS Noetic
+- Working on the Mobile Autonomous Recycling Container (MARC) with ROS Noetic (robot planning, computer vision, state machine)
 <p align="center">
     <img src="https://rsl.ethz.ch/research/researchtopics/arc/_jcr_content/par/fullwidthimage/image.imageformat.930.1783859568.png" alt="image" width="200">
     <img src="https://riverclean.ethz.ch/wp-content/uploads/2023/05/container_rendering.jpg" alt="image" width="250">
@@ -44,10 +44,10 @@
 
 ---
 
-### *Robotics Systems* class: Chess-playing robotic arm
+### *Robotics Systems* class: Chess-playing Robotic Arm
 - During exchange semester at the University of Melbourne, Australia
 - Construction of a robotic arm to manipulate pieces on a chess board & implementation from scratch in Matlab
-- Link to final demo video: https://youtu.be/MSCJdkJYSEA
+- Link to final demo video: [YouTube](https://youtu.be/MSCJdkJYSEA)
 
 <!-- <p align="center">
     <img src="images/chess_robot.png" alt="image" width="500"> 
@@ -61,7 +61,7 @@
 
 ---
 
-### *Real-World Robotics* class: Construction of a robotic hand and Application of Imitation Learning
+### *Real-World Robotics* class: Construction of a Robotic Hand and Application of Imitation Learning
 - Class of Fall 2024 at the Soft Robotics Lab at ETH
 - Hardware design of a robotic hand based on a design provided by the lab
 - Execution of teleoperation tasks with the hand mounted on a Franka Emika robotic arm
@@ -69,9 +69,9 @@
 
 ---
 
-### *Vision Algorithms for Mobile Robotics* class: Visual Odometry pipeline project
+### *Vision Algorithms for Mobile Robotics* class: Visual Odometry Pipeline Project
 - Class of Fall 2024 at the Robotics and Perception Group (RPG) at University of Zurich
-- Group bonus project: Design of a visual odometry pipeline
+- Group bonus project: Design of a visual odometry pipeline ([GitHub](https://github.com/jvw01/vamr-project-2024), Final demo video: [YouTube](https://youtu.be/iMiLZzel61M))
 - Techniques used: Shi-Tomasi algorithm, SIFT, Kanade-Lucas- Tomasi (KLT) algorithm, RANSAC  [^1]
 <p align="center">
     <img src="images/keypoints_in_image_plot.png" alt="image" width="500"> 
