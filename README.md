@@ -72,7 +72,7 @@
 
 ### *Vision Algorithms for Mobile Robotics* class: Visual Odometry Pipeline Project
 - Class of Fall 2024 at the Robotics and Perception Group (RPG) at University of Zurich
-- Group bonus project: Design of a visual odometry pipeline ([GitHub](https://github.com/jvw01/vamr-project-2024), Final demo video: [YouTube](https://youtu.be/iMiLZzel61M))
+- Group bonus project: Design of a visual odometry pipeline ([GitHub](https://github.com/jvw01/monocular-vo), Final demo video: [YouTube](https://youtu.be/iMiLZzel61M))
 - Techniques used: Shi-Tomasi algorithm, SIFT, Kanade-Lucas- Tomasi (KLT) algorithm, RANSAC  [^1]
 <p align="center">
     <img src="images/keypoints_in_image_plot.png" alt="image" width="500"> 
