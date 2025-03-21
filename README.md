@@ -17,8 +17,8 @@
 - Student project at the Robotic Systems Lab ETH ([website](https://riverclean.ethz.ch))
 - Working on the Mobile Autonomous Recycling Container (MARC) with ROS Noetic (robot planning, computer vision, state machine)
 <p align="center">
-    <img src="https://rsl.ethz.ch/research/researchtopics/arc/_jcr_content/par/fullwidthimage/image.imageformat.930.1783859568.png" alt="image" width="200">
-    <img src="https://riverclean.ethz.ch/wp-content/uploads/2023/05/container_rendering.jpg" alt="image" width="250">
+    <img src="https://rsl.ethz.ch/research/researchtopics/arc/_jcr_content/par/fullwidthimage/image.imageformat.930.1783859568.png" alt="image" width="100" style="margin-right: 50px;">
+    <img src="https://riverclean.ethz.ch/wp-content/uploads/2023/05/container_rendering.jpg" alt="image" width="150">
 </p>
 
 
@@ -30,6 +30,7 @@
 - Scholarship by the German Academic Exchange Service (DAAD)
 - Paper published in Optics Express: [DOI](https://doi.org/10.1364/OE.532576)
 - Further info on Github page: [GitHub](https://github.com/acpoll/stereofog)
+- Internal lab presentation: [YouTube](https://youtu.be/P8lyz_wZo2c)
 <p align="center">
     <img src="images/paper_headline_image.png" alt="image" width="500">
 </p>
@@ -56,7 +57,7 @@
 
 <p align="center">
       <a href="https://www.youtube.com/watch?v=MSCJdkJYSEA">
-         <img src="https://img.youtube.com/vi/MSCJdkJYSEA/0.jpg" width="500">
+         <img src="images/chess_robot_thumbnail.jpg" width="500">
       </a>
 </p>
 
@@ -64,22 +65,28 @@
 
 ### *Real-World Robotics* class: Construction of a Robotic Hand and Application of Imitation Learning
 - Class of Fall 2024 at the Soft Robotics Lab at ETH
-- Hardware design of a robotic hand based on a design provided by the lab
-- Execution of teleoperation tasks with the hand mounted on a Franka Emika robotic arm
-- Application of Imitation Learning for autonomous cube sorting
+- 3 main tasks:
+    - Hardware design of a robotic hand based on a design provided by the lab
+    - Execution of teleoperation tasks with the hand mounted on a Franka Emika robotic arm
+    - Application of Imitation Learning for autonomous cube sorting
 
+- Low-cost high-sensitivity sensing using FSR sensors
+- Imitation learning using Action Chunking Transformer (ACT) [^1]
+- Code & video material cannot be shared yet due to unpublished research
 ---
 
 ### *Vision Algorithms for Mobile Robotics* class: Visual Odometry Pipeline Project
 - Class of Fall 2024 at the Robotics and Perception Group (RPG) at University of Zurich
 - Group bonus project: Design of a visual odometry pipeline ([GitHub](https://github.com/jvw01/monocular-vo), Final demo video: [YouTube](https://youtu.be/iMiLZzel61M))
-- Techniques used: Shi-Tomasi algorithm, SIFT, Kanade-Lucas- Tomasi (KLT) algorithm, RANSAC  [^1]
+- Techniques used: Shi-Tomasi algorithm, SIFT, Kanade-Lucas- Tomasi (KLT) algorithm, RANSAC  [^2]
 <p align="center">
     <img src="images/keypoints_in_image_plot.png" alt="image" width="500"> 
     <img src="images/kitti_final_plot.png" alt="image" width="500">
 </p>
 
-[^1]: Image attribution: [KITTI dataset](https://www.cvlibs.net/datasets/kitti/)
+[^1]: [Action Chunking Transformer paper](https://arxiv.org/pdf/2304.13705)
+
+[^2]: Image attribution: [KITTI dataset](https://www.cvlibs.net/datasets/kitti/)
 
 ---
 
