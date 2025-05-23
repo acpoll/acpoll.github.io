@@ -8,7 +8,7 @@
 </div>
 
 ## Current projects
-### *Perception and Learning for Robotics* class: Project on Reinforcement Learning for ANYmal
+### *Perception and Learning for Robotics* class: Project on improving autonomous navigation for quadruped ANYmal
 - Class of Spring 2025 at the Robotic Systems Lab at ETH
 
 ---
