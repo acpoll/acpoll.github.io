@@ -8,7 +8,7 @@
 </div>
 
 ## Current projects
-### *Perception and Learning for Robotics* class: Project on improving autonomous navigation for quadruped ANYmal
+### *Perception and Learning for Robotics* class: Project on improving autonomous navigation for ANYmal quadruped using a gradient-based planner
 - Class of Spring 2025 at the Robotic Systems Lab at ETH
 
 ---
@@ -26,7 +26,7 @@
 ---
 ## Previous projects
 ### *Stereofog*: Image-to-image machine translation enables computational defogging in real-world images
-- Research internship in at the University of Utah, USA
+- Research internship at the University of Utah, USA
 - Scholarship by the German Academic Exchange Service (DAAD)
 - Paper published in Optics Express: [DOI](https://doi.org/10.1364/OE.532576)
 - Further info on Github page: [GitHub](https://github.com/acpoll/stereofog)
@@ -42,6 +42,36 @@
 - Paper published in IEEE Access: [DOI](https://doi.org/10.1109/access.2024.3352436)
 <p align="center">
     <img src="images/Methodology_IEEE_paper.jpg" alt="image" width="500">
+</p>
+
+---
+
+### *Real-World Robotics* class: Construction of a Robotic Hand and Application of Imitation Learning
+- Class of Fall 2024 at the Soft Robotics Lab at ETH
+- 3 main tasks:
+    - Hardware design of a robotic hand based on a design provided by the lab
+    - Execution of teleoperation tasks with the hand mounted on a Franka Emika robotic arm
+    - Application of Imitation Learning for autonomous cube sorting
+
+- Low-cost high-sensitivity pressure sensors using Force Sensitive Resistors (FSRs)
+- Imitation learning using Action Chunking Transformer (ACT) [^1]
+- Code cannot be shared yet due to unpublished research
+
+<p align="center">
+      <a href="https://youtube.com/shorts/ouuZPDAGm2Y?feature=share">
+         <img src="images/robotic_cube_sorting_thumbnail.png" width="250">
+      </a>
+</p>
+
+---
+
+### *Vision Algorithms for Mobile Robotics* class: Visual Odometry Pipeline Project
+- Class of Fall 2024 at the Robotics and Perception Group (RPG) at University of Zurich
+- Group bonus project: Design of a visual odometry pipeline ([GitHub](https://github.com/jvw01/monocular-vo), Final demo video: [YouTube](https://youtu.be/iMiLZzel61M))
+- Techniques used: Shi-Tomasi algorithm, SIFT, Kanade-Lucas- Tomasi (KLT) algorithm, RANSAC  [^2]
+<p align="center">
+    <img src="images/keypoints_in_image_plot.png" alt="image" width="500"> 
+    <img src="images/kitti_final_plot.png" alt="image" width="500">
 </p>
 
 ---
@@ -62,28 +92,6 @@
 </p>
 
 ---
-
-### *Real-World Robotics* class: Construction of a Robotic Hand and Application of Imitation Learning
-- Class of Fall 2024 at the Soft Robotics Lab at ETH
-- 3 main tasks:
-    - Hardware design of a robotic hand based on a design provided by the lab
-    - Execution of teleoperation tasks with the hand mounted on a Franka Emika robotic arm
-    - Application of Imitation Learning for autonomous cube sorting
-
-- Low-cost high-sensitivity sensing using FSR sensors
-- Imitation learning using Action Chunking Transformer (ACT) [^1]
-- Code cannot be shared yet due to unpublished research
-
----
-
-### *Vision Algorithms for Mobile Robotics* class: Visual Odometry Pipeline Project
-- Class of Fall 2024 at the Robotics and Perception Group (RPG) at University of Zurich
-- Group bonus project: Design of a visual odometry pipeline ([GitHub](https://github.com/jvw01/monocular-vo), Final demo video: [YouTube](https://youtu.be/iMiLZzel61M))
-- Techniques used: Shi-Tomasi algorithm, SIFT, Kanade-Lucas- Tomasi (KLT) algorithm, RANSAC  [^2]
-<p align="center">
-    <img src="images/keypoints_in_image_plot.png" alt="image" width="500"> 
-    <img src="images/kitti_final_plot.png" alt="image" width="500">
-</p>
 
 [^1]: [Action Chunking Transformer paper](https://arxiv.org/pdf/2304.13705)
 
