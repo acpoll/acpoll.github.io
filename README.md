@@ -72,7 +72,8 @@
 
 - Low-cost high-sensitivity sensing using FSR sensors
 - Imitation learning using Action Chunking Transformer (ACT) [^1]
-- Code & video material cannot be shared yet due to unpublished research
+- Code cannot be shared yet due to unpublished research
+
 ---
 
 ### *Vision Algorithms for Mobile Robotics* class: Visual Odometry Pipeline Project
