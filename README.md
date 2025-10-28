@@ -8,11 +8,21 @@
 </div>
 
 ## Current projects
-### *Perception and Learning for Robotics* class: Project on improving autonomous navigation for ANYmal quadruped using a gradient-based planner
-- Class of Spring 2025 at the Robotic Systems Lab at ETH
+### *Semester Project*: Improving autonomous navigation for ANYmal quadruped using a gradient-based planner
+- Continuation of a project from the Spring 2025 *Perception and Learning for Robotics* class at ETH's Robotic Systems Lab
 
 ---
 
+### *ForzaETH*: Robotics Engineer Volunteer
+- Student project at ETH's Center for Project-based Learning ([website](https://www.forzaeth.ch/))
+- Currently rebuilding the mobile platform and integrating it with the existing software stack 
+<p align="center">
+    <img src="https://www.forzaeth.ch/img/slide02.jpg" alt="image" width="350" style="margin-right: 50px;">
+</p>
+
+---
+---
+## Previous projects
 ### *Autonomous River Cleanup (ARC)*: Robotics Engineer Volunteer
 - Student project at the Robotic Systems Lab ETH ([website](https://riverclean.ethz.ch))
 - Working on the Mobile Autonomous Recycling Container (MARC) with ROS Noetic (robot planning, computer vision, state machine)
@@ -21,10 +31,8 @@
     <img src="https://riverclean.ethz.ch/wp-content/uploads/2023/05/container_rendering.jpg" alt="image" width="150">
 </p>
 
+---
 
----
----
-## Previous projects
 ### *Stereofog*: Image-to-image machine translation enables computational defogging in real-world images
 - Research internship at the University of Utah, USA
 - Scholarship by the German Academic Exchange Service (DAAD)
