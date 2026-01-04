@@ -23,6 +23,14 @@
 ---
 ---
 ## Previous projects
+### *Safe Exploration via Policy Priors*
+- Contribution to the research project at the Learning & Adaptive Systems Group, ETH Zurich
+- NeurIPS workshop paper: [SOOPER](https://yardenas.github.io/sooper/)
+
+<p align="center">
+    <img src="https://yardenas.github.io/sooper/_astro/sooper-idea.DqYM3qab_Z26yg87.svg" alt="image" width="300">
+</p>
+
 ### *Autonomous River Cleanup (ARC)*: Robotics Engineer Volunteer
 - Student project at the Robotic Systems Lab ETH ([website](https://riverclean.ethz.ch))
 - Working on the Mobile Autonomous Recycling Container (MARC) with ROS Noetic (robot planning, computer vision, state machine)
