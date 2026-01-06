@@ -3,7 +3,8 @@
 <div align="center">
 <p><strong>MSc Robotics, Systems and Control student at ETH Zurich</strong></p>
 
-<a href="https://github.com/acpoll">https://github.com/acpoll</a>
+<a href="https://github.com/acpoll">github.com/acpoll</a> | 
+<a href="https://scholar.google.com/citations?user=G_PIiz4AAAAJ">scholar.google.com</a>
 
 </div>
 
