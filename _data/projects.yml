@@ -1,0 +1,191 @@
+- id: master-thesis
+  order: 9
+  title: Master thesis at Oxford Robotics Institute
+  role: Articulated Robots Group
+  status: Current
+  featured: true
+  summary:
+    - Research on VLA integration with additional sensing
+  images:
+    - src: https://ori.ox.ac.uk/media/frqgfz3w/arg_logo_ori.png
+      alt: ARG Oxford Robotics Institute logo
+      external: true
+      display: contain
+  links:
+    - label: Lab website
+      url: https://articulated.robots.ox.ac.uk/
+
+- id: gradient-planner
+  order: 10
+  title: Improving autonomous navigation for ANYmal quadruped using a gradient-based planner
+  label: Semester Project
+  status: Under review
+  featured: true
+  summary:
+    - Continuation of a project from the Spring 2025 Perception and Learning for Robotics class at ETH's Robotic Systems Lab.
+
+- id: forza-eth
+  order: 20
+  title: ForzaETH
+  role: Robotics Engineer Volunteer
+  status: Previous
+  featured: true
+  summary:
+    - Student project at ETH's Center for Project-based Learning.
+    - Rebuilding the mobile platform and integrating it with the existing software stack.
+  images:
+    - src: images/forzaeth_car_redesign.png
+      alt: The ForzaETH student robotics platform
+      external: true
+      display: contain
+  links:
+    - label: Project website
+      url: https://www.forzaeth.ch/
+
+- id: safe-exploration
+  order: 30
+  title: Safe Exploration via Policy Priors
+  role: Learning & Adaptive Systems Group @ ETH
+  status: Previous
+  featured: true
+  summary:
+    - Safe RL exploration in real-world environments, using prior policies derived from little offline data/simulation.
+  images:
+    - src: https://yardenas.github.io/sooper/_astro/sooper-idea.DqYM3qab_Z26yg87.svg
+      alt: Overview of the SOOPER safe exploration approach
+      link: https://yardenas.github.io/sooper/
+      external: true
+  links:
+    - label: SOOPER paper overview
+      url: https://yardenas.github.io/sooper/
+  publication:
+    venue: ICLR 2026
+    link_label: Paper overview
+    url: https://yardenas.github.io/sooper/
+
+- id: autonomous-river-cleanup
+  order: 40
+  title: Autonomous River Cleanup (ARC)
+  role: Robotics Engineer Volunteer
+  status: Previous
+  featured: true
+  summary:
+    - Student project at the Robotic Systems Lab, ETH Zurich.
+    - Work on the Mobile Autonomous Recycling Container (MARC) using ROS Noetic, including robot planning, computer vision, and a state machine.
+  images:
+    - src: https://rsl.ethz.ch/research/researchtopics/arc/_jcr_content/par/fullwidthimage/image.imageformat.930.1783859568.png
+      alt: Autonomous River Cleanup logo
+      external: true
+      display: compact
+  links:
+    - label: Project website
+      url: https://riverclean.ethz.ch
+
+- id: stereofog
+  order: 50
+  title: Stereofog
+  subtitle: Image-to-image machine translation enables computational defogging in real-world images
+  role: Research Internship
+  status: Previous
+  featured: true
+  summary:
+    - Research internship at the University of Utah, USA.
+    - Scholarship from the German Academic Exchange Service (DAAD).
+  images:
+    - src: /images/paper_headline_image.png
+      alt: Example inputs and computationally defogged Stereofog results
+      link: https://doi.org/10.1364/OE.532576
+  links:
+    - label: Paper
+      url: https://doi.org/10.1364/OE.532576
+    - label: GitHub
+      url: https://github.com/acpoll/stereofog
+    - label: Presentation
+      url: https://youtu.be/P8lyz_wZo2c
+  publication:
+    venue: Optics Express
+    link_label: DOI
+    url: https://doi.org/10.1364/OE.532576
+    title: Image-to-image machine translation enables computational defogging in real-world images
+
+- id: bachelor-thesis
+  order: 60
+  title: Optimized Operation Management With Predicted Filling Levels of the Litter Bins for a Fleet of Autonomous Urban Service Robots
+  label: Bachelor thesis
+  status: Previous
+  featured: true
+  summary:
+    - Completed within the MARBLE (Mobile Autonomous Robot for Litter Bin Emptying) project at TU Berlin.
+  images:
+    - src: /images/Methodology_IEEE_paper.jpg
+      alt: Methodology for predicted litter-bin filling levels and robot fleet operation
+      display: contain
+      link: https://doi.org/10.1109/access.2024.3352436
+  links:
+    - label: Paper
+      url: https://doi.org/10.1109/access.2024.3352436
+  publication:
+    venue: IEEE Access
+    link_label: DOI
+    url: https://doi.org/10.1109/access.2024.3352436
+
+- id: robotic-hand
+  order: 70
+  title: Construction of a Robotic Hand and Application of Imitation Learning
+  label: Real-World Robotics class
+  status: Previous
+  featured: true
+  summary:
+    - Hardware design of a robotic hand based on a design provided by the Soft Robotics Lab at ETH Zurich.
+    - Teleoperation with the hand mounted on a Franka Emika robotic arm and imitation learning for autonomous cube sorting.
+    - Low-cost, high-sensitivity pressure sensors using Force Sensitive Resistors and an Action Chunking Transformer policy.
+  images:
+    - src: https://i.ytimg.com/vi/ouuZPDAGm2Y/maxresdefault.jpg
+      alt: YouTube thumbnail of the robotic hand performing a cube-sorting task
+      external: true
+      link: https://youtube.com/shorts/ouuZPDAGm2Y?feature=share
+      youtube_id: ouuZPDAGm2Y
+  links:
+    - label: Demo video
+      url: https://youtube.com/shorts/ouuZPDAGm2Y?feature=share
+
+- id: visual-odometry
+  order: 80
+  title: Visual Odometry Pipeline
+  label: Vision Algorithms for Mobile Robotics class
+  status: Previous
+  featured: true
+  summary:
+    - Group bonus project at the Robotics and Perception Group, University of Zurich.
+    - Implementation using Shi-Tomasi, SIFT, Kanade-Lucas-Tomasi tracking, and RANSAC.
+  images:
+    - src: /images/keypoints_in_image_plot.png
+      alt: Feature keypoints detected in a road scene
+      link: https://github.com/jvw01/monocular-vo
+    - src: /images/kitti_final_plot.png
+      alt: Estimated and reference trajectories on the KITTI dataset
+      link: https://github.com/jvw01/monocular-vo
+  links:
+    - label: GitHub
+      url: https://github.com/jvw01/monocular-vo
+    - label: Demo video
+      url: https://youtu.be/iMiLZzel61M
+
+- id: chess-robot
+  order: 90
+  title: Chess-playing Robotic Arm
+  label: Robotics Systems class
+  status: Previous
+  featured: true
+  summary:
+    - Exchange-semester project at the University of Melbourne, Australia.
+    - Construction of a robotic arm to manipulate pieces on a chessboard, implemented from scratch in MATLAB.
+  images:
+    - src: https://i.ytimg.com/vi/MSCJdkJYSEA/hqdefault.jpg
+      alt: YouTube thumbnail of the chess-playing robotic arm
+      external: true
+      link: https://www.youtube.com/watch?v=MSCJdkJYSEA
+      youtube_id: MSCJdkJYSEA
+  links:
+    - label: Demo video
+      url: https://youtu.be/MSCJdkJYSEA

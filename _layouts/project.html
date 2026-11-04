@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<article class="detail shell detail-shell">
+  <a class="back-link" href="{{ '/#projects' | relative_url }}"><span aria-hidden="true">←</span> Back to projects</a>
+  <header class="detail__header">
+    {% if page.label %}<p class="eyebrow">{{ page.label }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p class="detail__lede">{{ page.description }}</p>{% endif %}
+    {% if page.links %}
+      <div class="text-links detail__links">
+        {% for link in page.links %}<a href="{{ link.url }}">{{ link.label }} {% include link-arrow.html %}</a>{% endfor %}
+      </div>
+    {% endif %}
+  </header>
+  <div class="prose">
+    {{ content }}
+  </div>
+  <footer class="detail__footer">
+    <a class="back-link" href="{{ '/#projects' | relative_url }}"><span aria-hidden="true">←</span> Back to projects</a>
+    {% if page.next_project %}<a href="{{ page.next_project.url | relative_url }}">Next: {{ page.next_project.label }} <span aria-hidden="true">→</span></a>{% endif %}
+  </footer>
+</article>

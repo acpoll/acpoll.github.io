@@ -1,0 +1,34 @@
+name: Anton Pollak
+short_name: Anton
+eyebrow: 
+headline: MSc Robotics, Systems and Control student at ETH Zurich
+summary: 
+location: Oxford, UK; Zurich, Switzerland
+
+# Add these values when they are ready. Empty links are not rendered.
+email: "apollak@student.ethz.ch"
+cv_url: ""
+
+profiles:
+  - label: GitHub
+    url: https://github.com/acpoll
+    aria_label: Anton Pollak on GitHub
+  - label: Google Scholar
+    url: https://scholar.google.com/citations?user=G_PIiz4AAAAJ
+    aria_label: Anton Pollak on Google Scholar
+  - label: ORCID
+    url: https://orcid.org/0009-0001-8679-8484
+    aria_label: Anton Pollak's DOI on ORCID
+
+about:
+  intro: MSc Robotics, Systems and Control student at ETH Zurich, with project experience spanning autonomous navigation, robot planning, computer vision, imitation learning, and robotics hardware.
+  focus:
+    - Autonomous navigation
+    - Robot learning
+    - Computer vision
+    - Robotics systems
+  background:
+    - ETH Zurich
+    - University of Utah
+    - TU Berlin
+    - University of Melbourne

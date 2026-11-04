@@ -1,0 +1,58 @@
+{% assign project = include.project %}
+<article class="project" id="{{ project.id }}">
+  <div class="project__number" aria-hidden="true">0{{ include.index }}</div>
+  <div class="project__content">
+    <div class="project__meta">
+      {% if project.label %}<span>{{ project.label }}</span>{% endif %}
+      {% if project.role %}<span>{{ project.role }}</span>{% endif %}
+      {% if project.status %}<span class="project__status">{{ project.status }}</span>{% endif %}
+    </div>
+
+    <h3 class="project__title">
+      {% if project.detail_url %}
+        <a href="{{ project.detail_url | relative_url }}">{{ project.title }}</a>
+      {% else %}
+        {{ project.title }}
+      {% endif %}
+    </h3>
+    {% if project.subtitle %}<p class="project__subtitle">{{ project.subtitle }}</p>{% endif %}
+
+    {% if project.summary %}
+      <ul class="project__summary">
+        {% for item in project.summary %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if project.links or project.detail_url %}
+      <div class="text-links" aria-label="Links for {{ project.title }}">
+        {% if project.detail_url %}
+          <a href="{{ project.detail_url | relative_url }}">View project <span aria-hidden="true">→</span></a>
+        {% endif %}
+        {% for link in project.links %}
+          <a href="{{ link.url }}">{{ link.label }} {% include link-arrow.html %}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  {% if project.images %}
+    {% assign first_image = project.images | first %}
+    <div class="project__media{% if first_image.youtube_id %} project__media--video{% elsif project.images.size > 1 %} project__media--split{% elsif first_image.display %} project__media--{{ first_image.display }}{% endif %}">
+      {% for image in project.images limit: 2 %}
+        {% capture image_src %}{% if image.external %}{{ image.src }}{% else %}{{ image.src | relative_url }}{% endif %}{% endcapture %}
+        {% if image.youtube_id %}
+          <a class="project-video" href="{{ image.link }}" data-youtube-id="{{ image.youtube_id }}" data-youtube-title="{{ project.title | escape }}" aria-label="Play video for {{ project.title }}">
+        {% elsif image.link %}
+          <a href="{{ image.link }}" aria-label="Open media for {{ project.title }}">
+        {% endif %}
+          <img class="project__image{% if image.display %} project__image--{{ image.display }}{% endif %}" src="{{ image_src | strip }}" alt="{{ image.alt }}" loading="lazy" decoding="async">
+        {% if image.youtube_id %}
+            <span class="project-video__play" aria-hidden="true">▶</span>
+          </a>
+        {% elsif image.link %}
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</article>

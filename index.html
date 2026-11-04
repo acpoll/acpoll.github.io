@@ -1,0 +1,113 @@
+---
+layout: default
+title: null
+description: Robotics projects, research, and publications by Anton Pollak.
+---
+{% assign profile = site.data.profile %}
+{% assign projects = site.data.projects | where_exp: 'project', 'project.hidden != true' | sort: 'order' %}
+{% assign experience = site.data.experience | where_exp: 'item', 'item.hidden != true' | sort: 'order' %}
+{% assign work_items = projects | concat: experience | sort: 'order' %}
+
+<section class="hero shell" aria-labelledby="intro-title">
+  <div class="hero__main">
+    <p class="eyebrow">{{ profile.eyebrow }}</p>
+    <h1 id="intro-title">{{ profile.name }}</h1>
+    <p class="hero__headline">{{ profile.headline }}</p>
+    <p class="hero__summary">{{ profile.summary }}</p>
+    <div class="hero__actions text-links">
+      {% if profile.cv_url != empty %}<a href="{{ profile.cv_url | relative_url }}">CV <span aria-hidden="true">↓</span></a>{% endif %}
+      {% if profile.email != empty %}<a href="mailto:{{ profile.email }}">{{ profile.email }} <span aria-hidden="true">→</span></a>{% endif %}
+      {% for item in profile.profiles %}
+        <a href="{{ item.url }}" aria-label="{{ item.aria_label }}">{{ item.label }} {% include link-arrow.html %}</a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <aside class="hero__aside" aria-label="Current work">
+    <p class="mini-label">Currently</p>
+    <ul>
+      {% for item in work_items %}
+        {% if item.status == 'Current' %}
+          <li><a href="#{{ item.id }}">{{ item.title }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <p class="hero__location">{{ profile.location }}</p>
+  </aside>
+</section>
+
+<section class="section shell" id="projects" aria-labelledby="projects-title">
+  <header class="section-heading section-heading--compact">
+    <h2 id="projects-title">Selected Projects</h2>
+  </header>
+
+  <div class="project-list">
+    {% assign visible_index = 0 %}
+    {% for project in projects %}
+      {% assign visible_index = visible_index | plus: 1 %}
+      {% include project-card.html project=project index=visible_index %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section section--ruled shell" id="experience" aria-labelledby="experience-title">
+  <header class="section-heading section-heading--compact">
+    <h2 id="experience-title">Selected Experience</h2>
+  </header>
+
+  <div class="project-list">
+    {% assign visible_index = 0 %}
+    {% for item in experience %}
+      {% assign visible_index = visible_index | plus: 1 %}
+      {% include project-card.html project=item index=visible_index %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section section--ruled shell" id="publications" aria-labelledby="publications-title">
+  <header class="section-heading section-heading--compact">
+    <!-- <p class="eyebrow">02 / Publications</p> -->
+    <h2 id="publications-title">Publications</h2>
+  </header>
+
+  <div class="publication-list">
+    {% for item in work_items %}
+      {% if item.publication %}
+        <article class="publication">
+          <p class="publication__venue">{{ item.publication.venue }}</p>
+          <h3>{{ item.publication.title | default: item.title }}</h3>
+          <a href="{{ item.publication.url }}">{{ item.publication.link_label }} {% include link-arrow.html %}</a>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<!-- <section class="section section--ruled shell about" id="about" aria-labelledby="about-title">
+  <header class="section-heading">
+    <p class="eyebrow">03 / About</p>
+    <h2 id="about-title">Background</h2>
+    <p>{{ profile.about.intro }}</p>
+  </header>
+  <div class="about__lists">
+    <div>
+      <p class="mini-label">Focus</p>
+      <ul>{% for item in profile.about.focus %}<li>{{ item }}</li>{% endfor %}</ul>
+    </div>
+    <div>
+      <p class="mini-label">Places</p>
+      <ul>{% for item in profile.about.background %}<li>{{ item }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+</section> -->
+
+<section class="contact shell" id="contact" aria-labelledby="contact-title">
+  <!-- <p class="eyebrow">04 / Contact</p> -->
+  <h2 id="contact-title">Contact</h2>
+  <p>Contant me through one of the links below.</p>
+  <div class="text-links contact__links">
+    {% if profile.email != empty %}<a href="mailto:{{ profile.email }}">{{ profile.email }} <span aria-hidden="true">→</span></a>{% endif %}
+    {% if profile.cv_url != empty %}<a href="{{ profile.cv_url | relative_url }}">Download CV <span aria-hidden="true">↓</span></a>{% endif %}
+    {% for item in profile.profiles %}<a href="{{ item.url }}">{{ item.label }} {% include link-arrow.html %}</a>{% endfor %}
+  </div>
+</section>

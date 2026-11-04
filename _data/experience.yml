@@ -1,0 +1,69 @@
+# Replace this template entry with real experience details.
+- id: flexion
+  order: 10
+  title: Flexion Robotics AG
+  label: Robotics Intern
+  status: Oct 2025 - Feb 2026
+  summary:
+    - Working on the intersection of hardware and software (sensor integration & simulation, environment representation, Gaussian splatting)
+  links:
+    - label: Company website
+      url: https://flexion.ai/
+  images:
+    - src: https://framerusercontent.com/images/JQ694zPvKYYL0U81svsq3ipwXw.svg?width=2634&height=556
+      alt: Flexion Robotics logo
+      external: true
+      display: contain
+      link: https://flexion.ai/
+
+- id: conbotics
+  order: 20
+  title: ConBotics GmbH
+  label: Robotics Intern
+  status: Dec 2023 - Aug 2024
+  summary:
+    - Assistance in the development & market launch of the startup's first robot model
+    - Focused on ROS development in C++, microcontrollers and prototyping
+  links:
+    - label: Company website
+      url: https://conbotics.com/
+  images:
+    - src: https://cdn.prod.website-files.com/698f0102143290bd8ce5927a/698f0102143290bd8ce592a8_Logo.svg
+      alt: ConBotics logo
+      external: true
+      display: contain
+      link: https://conbotics.com/
+
+- id: tu-berlin
+  order: 30
+  title: TU Berlin
+  label:  Student research assistant
+  status: Dec 2022 - Sep 2023
+  summary:
+    - Working on the research project zeroCUTS (Analysis of Strategies for the Complete Decarbonization of Urban Transport)
+  images:
+    - src: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4JbhnNGEqPeMAIxD-Ev7h4UBC2MWwohf1eneRTp74-tg9NlNvNnEsULqK&s=10
+      alt: MPM logo
+      external: true
+      display: contain
+  links:
+    - label: Published paper
+      url: https://www.mdpi.com/2032-6653/15/3/114
+  publication:
+    title: Comparative Life Cycle Assessment of Battery and Fuel Cell Electric Cars, Trucks, and Buses
+    venue: World Electric Vehicle Journal
+    link_label: MDPI
+    url: https://www.mdpi.com/2032-6653/15/3/114
+
+- id: porsche
+  order: 40
+  title: Porsche AG
+  label:  R&D Intern
+  status: Aug 2021 - Jan 2022
+  summary:
+    - EV charging department (charge communication, charge planning) 
+  images:
+    - src: https://cdn.freebiesupply.com/logos/large/2x/porsche-3-logo-png-transparent.png
+      alt: Porsche logo
+      external: true
+      display: compact

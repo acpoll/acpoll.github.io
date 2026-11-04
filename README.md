@@ -1,119 +1,27 @@
-<center><h1>Anton Pollak</h1></center>
+# Anton Pollak — portfolio
 
-<div align="center">
-<p><strong>MSc Robotics, Systems and Control student at ETH Zurich</strong></p>
+A lightweight Jekyll portfolio deployed with GitHub Pages. Profile details and homepage ordering are intentionally separated from the page templates so the site can be curated without editing layout code.
 
-<a href="https://github.com/acpoll">github.com/acpoll</a> | 
-<a href="https://scholar.google.com/citations?user=G_PIiz4AAAAJ">scholar.google.com</a>
+## Edit content
 
-</div>
+- Personal details, profile links, CV, email, and About lists live in `_data/profile.yml`.
+- Homepage project entries live in `_data/projects.yml`; experience entries live in `_data/experience.yml`. Either can include a `publication` with an optional `title`; without one, the parent entry's title is used. Change an entry's `order` value to rearrange it; set `hidden: true` to remove it without deleting it.
+- Images crop to fill their card by default. Add `display: contain` to show a complete logo or diagram in the standard media box, or `display: compact` for a small contained mark.
+- Add `youtube_id` to a linked image to turn it into a click-to-load YouTube player. The image remains the no-JavaScript fallback link.
+- Add a selective project detail as Markdown in `_projects/<slug>.md` with `title`, `description`, `label`, and optional `links` front matter. Add its generated `/work/<slug>/` URL to the corresponding `detail_url` in `_data/projects.yml`.
+- Future standalone paper overviews use `layout: paper`. A clean paper URL has no portfolio chrome; links from the homepage may append `?from=portfolio` to show the contextual return link.
 
-## Current projects
-### *Semester Project*: Improving autonomous navigation for ANYmal quadruped using a gradient-based planner
-- Continuation of a project from the Spring 2025 *Perception and Learning for Robotics* class at ETH's Robotic Systems Lab
+Empty `email` and `cv_url` values are automatically hidden.
 
----
+## Preview locally
 
-### *ForzaETH*: Robotics Engineer Volunteer
-- Student project at ETH's Center for Project-based Learning ([website](https://www.forzaeth.ch/))
-- Currently rebuilding the mobile platform and integrating it with the existing software stack 
-<p align="center">
-    <img src="https://www.forzaeth.ch/img/slide02.jpg" alt="image" width="350" style="margin-right: 50px;">
-</p>
+```sh
+bundle install
+bundle exec jekyll serve --livereload
+```
 
----
----
-## Previous projects
-### *Safe Exploration via Policy Priors*
-- Contribution to the research project at the Learning & Adaptive Systems Group, ETH Zurich
-- NeurIPS workshop paper: [SOOPER](https://yardenas.github.io/sooper/)
+Open <http://127.0.0.1:4000>. Local preview files are ignored by Git.
 
-<p align="center">
-    <img src="https://yardenas.github.io/sooper/_astro/sooper-idea.DqYM3qab_Z26yg87.svg" alt="image" width="300">
-</p>
+## Publish
 
-### *Autonomous River Cleanup (ARC)*: Robotics Engineer Volunteer
-- Student project at the Robotic Systems Lab ETH ([website](https://riverclean.ethz.ch))
-- Working on the Mobile Autonomous Recycling Container (MARC) with ROS Noetic (robot planning, computer vision, state machine)
-<p align="center">
-    <img src="https://rsl.ethz.ch/research/researchtopics/arc/_jcr_content/par/fullwidthimage/image.imageformat.930.1783859568.png" alt="image" width="100" style="margin-right: 50px;">
-    <img src="https://riverclean.ethz.ch/wp-content/uploads/2023/05/container_rendering.jpg" alt="image" width="150">
-</p>
-
----
-
-### *Stereofog*: Image-to-image machine translation enables computational defogging in real-world images
-- Research internship at the University of Utah, USA
-- Scholarship by the German Academic Exchange Service (DAAD)
-- Paper published in Optics Express: [DOI](https://doi.org/10.1364/OE.532576)
-- Further info on Github page: [GitHub](https://github.com/acpoll/stereofog)
-- Internal lab presentation: [YouTube](https://youtu.be/P8lyz_wZo2c)
-<p align="center">
-    <img src="images/paper_headline_image.png" alt="image" width="500">
-</p>
-
----
-
-### *Bachelor thesis*: Optimized Operation Management With Predicted Filling Levels of the Litter Bins for a Fleet of Autonomous Urban Service Robots
-- Within MARBLE (**M**obile **A**utonomous **R**o**B**ot for **L**itter Bin **E**mptying) project at TU Berlin
-- Paper published in IEEE Access: [DOI](https://doi.org/10.1109/access.2024.3352436)
-<p align="center">
-    <img src="images/Methodology_IEEE_paper.jpg" alt="image" width="500">
-</p>
-
----
-
-### *Real-World Robotics* class: Construction of a Robotic Hand and Application of Imitation Learning
-- Class of Fall 2024 at the Soft Robotics Lab at ETH
-- 3 main tasks:
-    - Hardware design of a robotic hand based on a design provided by the lab
-    - Execution of teleoperation tasks with the hand mounted on a Franka Emika robotic arm
-    - Application of Imitation Learning for autonomous cube sorting
-
-- Low-cost high-sensitivity pressure sensors using Force Sensitive Resistors (FSRs)
-- Imitation learning using Action Chunking Transformer (ACT) [^1]
-- Code cannot be shared yet due to unpublished research
-
-<p align="center">
-      <a href="https://youtube.com/shorts/ouuZPDAGm2Y?feature=share">
-         <img src="images/robotic_cube_sorting_thumbnail.png" width="250">
-      </a>
-</p>
-
----
-
-### *Vision Algorithms for Mobile Robotics* class: Visual Odometry Pipeline Project
-- Class of Fall 2024 at the Robotics and Perception Group (RPG) at University of Zurich
-- Group bonus project: Design of a visual odometry pipeline ([GitHub](https://github.com/jvw01/monocular-vo), Final demo video: [YouTube](https://youtu.be/iMiLZzel61M))
-- Techniques used: Shi-Tomasi algorithm, SIFT, Kanade-Lucas- Tomasi (KLT) algorithm, RANSAC  [^2]
-<p align="center">
-    <img src="images/keypoints_in_image_plot.png" alt="image" width="500"> 
-    <img src="images/kitti_final_plot.png" alt="image" width="500">
-</p>
-
----
-
-### *Robotics Systems* class: Chess-playing Robotic Arm
-- During exchange semester at the University of Melbourne, Australia
-- Construction of a robotic arm to manipulate pieces on a chess board & implementation from scratch in Matlab
-- Link to final demo video: [YouTube](https://youtu.be/MSCJdkJYSEA)
-
-<!-- <p align="center">
-    <img src="images/chess_robot.png" alt="image" width="500"> 
-</p> -->
-
-<p align="center">
-      <a href="https://www.youtube.com/watch?v=MSCJdkJYSEA">
-         <img src="images/chess_robot_thumbnail.jpg" width="500">
-      </a>
-</p>
-
----
-
-[^1]: [Action Chunking Transformer paper](https://arxiv.org/pdf/2304.13705)
-
-[^2]: Image attribution: [KITTI dataset](https://www.cvlibs.net/datasets/kitti/)
-
----
-
-<sup><sub>Used template: https://github.com/plpxsk/primer-template/tree/main</sub></sup>
+GitHub Pages builds the site from the `main` branch. Review the local preview before committing or pushing changes.

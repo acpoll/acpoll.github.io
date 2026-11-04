@@ -1,2 +1,27 @@
-name: Antons Projects
-title: null
+title: Anton Pollak
+description: Robotics projects, research, and publications by Anton Pollak.
+url: "https://acpoll.github.io"
+baseurl: ""
+lang: en-GB
+timezone: Europe/London
+
+markdown: kramdown
+permalink: pretty
+
+collections:
+  projects:
+    output: true
+    permalink: /work/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
