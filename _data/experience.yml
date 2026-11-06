@@ -2,8 +2,8 @@
 - id: flexion
   order: 10
   title: Flexion Robotics AG
-  label: Robotics Intern
-  status: Oct 2025 - Feb 2026
+  label: Robotics Intern (previously Working Student)
+  status: Oct 2025 - Jul 2026
   summary:
     - Working on the intersection of hardware and software (sensor integration & simulation, environment representation, Gaussian splatting)
   links:
