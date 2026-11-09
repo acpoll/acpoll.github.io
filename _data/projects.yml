@@ -33,7 +33,7 @@
   featured: true
   summary:
     - Student project at ETH's Center for Project-based Learning.
-    - Rebuilding the mobile platform and integrating it with the existing software stack.
+    - Rebuilt the mobile platform and integrated it with the existing software stack.
   images:
     - src: images/forzaeth_car_redesign.png
       alt: The ForzaETH student robotics platform
