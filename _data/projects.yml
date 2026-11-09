@@ -138,8 +138,8 @@
   featured: true
   summary:
     - Hardware design of a robotic hand based on a design provided by the Soft Robotics Lab at ETH Zurich.
-    - Teleoperation with the hand mounted on a Franka Emika robotic arm and imitation learning for autonomous cube sorting.
-    - Low-cost, high-sensitivity pressure sensors using Force Sensitive Resistors and an Action Chunking Transformer policy.
+    - Teleoperation with the hand mounted on a Franka Emika robotic arm and imitation learning for autonomous cube sorting with Action Chunking Transformers.
+    - Low-cost, high-sensitivity pressure sensors using Force Sensitive Resistors.
   images:
     - src: https://i.ytimg.com/vi/ouuZPDAGm2Y/maxresdefault.jpg
       alt: YouTube thumbnail of the robotic hand performing a cube-sorting task

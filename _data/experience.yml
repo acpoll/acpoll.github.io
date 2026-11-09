@@ -5,7 +5,7 @@
   label: Robotics Intern (previously Working Student)
   status: Oct 2025 - Jul 2026
   summary:
-    - Working on the intersection of hardware and software (sensor integration & simulation, environment representation, Gaussian splatting)
+    - Working on the intersection of hardware and software (sensor integration & simulation, motion capture, environment representation, Gaussian splatting & policy transfer)
   links:
     - label: Company website
       url: https://flexion.ai/
