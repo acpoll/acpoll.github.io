@@ -54,5 +54,7 @@
         {% endif %}
       {% endfor %}
     </div>
+  {% elsif project.media_placeholder %}
+    <div class="project__media project__media--placeholder">{{ project.media_placeholder | escape }}</div>
   {% endif %}
 </article>

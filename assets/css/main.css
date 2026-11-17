@@ -324,6 +324,15 @@ h3 {
   background: var(--paper);
 }
 
+.project__media--placeholder {
+  place-items: center;
+  padding: 32px;
+  border: 1px dashed var(--line);
+  background: var(--paper-bright);
+  color: var(--muted);
+  text-align: center;
+}
+
 .project__media a {
   display: contents;
 }

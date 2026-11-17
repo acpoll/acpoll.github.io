@@ -20,8 +20,9 @@
   order: 10
   title: Improving autonomous navigation for ANYmal quadruped using a gradient-based planner
   label: Semester Project
-  status: Under review
+  status: Paper under review
   featured: true
+  media_placeholder: Paper website coming soon
   summary:
     - Continuation of a project from the Spring 2025 Perception and Learning for Robotics class at ETH's Robotic Systems Lab.
 
